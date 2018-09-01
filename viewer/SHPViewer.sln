@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SHPViewer", "SHPViewer.vcproj", "{00E884BB-0082-44D0-932D-694142B628FC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D4A05C9D-C7F8-4343-B0C4-BAC06486C554} = {D4A05C9D-C7F8-4343-B0C4-BAC06486C554}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RoutePlan", "RoutePlan\RoutePlan.vcproj", "{D4A05C9D-C7F8-4343-B0C4-BAC06486C554}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00E884BB-0082-44D0-932D-694142B628FC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{00E884BB-0082-44D0-932D-694142B628FC}.Debug|Win32.Build.0 = Debug|Win32
+		{00E884BB-0082-44D0-932D-694142B628FC}.Release|Win32.ActiveCfg = Release|Win32
+		{00E884BB-0082-44D0-932D-694142B628FC}.Release|Win32.Build.0 = Release|Win32
+		{D4A05C9D-C7F8-4343-B0C4-BAC06486C554}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D4A05C9D-C7F8-4343-B0C4-BAC06486C554}.Debug|Win32.Build.0 = Debug|Win32
+		{D4A05C9D-C7F8-4343-B0C4-BAC06486C554}.Release|Win32.ActiveCfg = Release|Win32
+		{D4A05C9D-C7F8-4343-B0C4-BAC06486C554}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
